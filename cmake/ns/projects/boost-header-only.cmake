@@ -20,7 +20,7 @@ if (NOT DEFINED BOOST_HEADER_ONLY_DESTINATION)
 endif()
 
 NS_project_add(BOOST_HEADER_ONLY
-  GIT_REPOSITORY https://github.com/ericsium/boost-header-only.git
+  GIT_REPOSITORY https://github.com/JetBrains-Research/boost-header-only.git
   GIT_TAG        ${BOOST_HEADER_ONLY_GIT_TAG}
   DESTINATION    ${BOOST_HEADER_ONLY_DESTINATION}
 
